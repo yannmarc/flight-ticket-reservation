@@ -1,0 +1,51 @@
+@import url('../utils/_index.scss');
+
+.navbar {
+    width: 100%;
+    padding-block: 20px;
+    font-family: 'Inter';
+}
+
+.navbar .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-nav-bar {
+   display: block;
+}
+
+.mobile-nav-bar a {
+    padding-block: 10px;
+    padding-inline: 20px;
+    background-color: #BC19B6;
+    color: #FFFFFF;
+    border: 2px solid transparent;
+    transition: all .5s ease-in-out;
+} 
+
+.mobile-nav-bar a:hover {
+    opacity: .9;
+}
+
+.mobile-nav-bar a:nth-child(1) {
+    border: 2px solid #BC19B6;
+    background-color: transparent;
+    margin-right: 10px;
+    color: #BC19B6;
+}
+
+.mobile-nav-bar a:nth-child(1):hover {
+    background-color: #BC19B6;
+    color: #FFFFFF;
+}
+
+.wrapper {
+    padding-inline: 2rem;
+   
+    @media screen and (min-width: 1024px) {
+        max-width: 1139px;
+        margin: 0 auto;
+    }
+}

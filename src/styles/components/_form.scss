@@ -1,0 +1,81 @@
+@import url('../utils/_index.scss');
+
+.form-section {
+    padding-block: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: 'Inter';
+
+    @media screen and (min-width: 1024px) {
+        padding-block: 0px;
+    }
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Darker Grotesque';
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4F4F4;
+    width: 350px;
+    height: 100%;
+    margin-top: 2rem;
+    padding-inline: 20px;
+    padding-bottom: 2rem;
+    padding-block: 2rem;
+}
+
+.form-group {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.form-group input {
+    width: 100%;
+    border: none;
+    outline: none;
+    display: block;
+    font-size: 16px;
+    padding-block: 22px;
+    border-radius: 4px;
+    padding-inline: 1rem;
+    background-color: #FEFEFE;
+    overflow: hidden;
+}
+
+input::placeholder {
+    color: rgb(206, 206, 206);
+}
+
+input[type=submit] {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+input[type=submit]:hover {
+    opacity: .9;
+}
+
+.form-group .btn {
+    width: 200px;
+    padding-block: 20px;
+    background-color: #000000;
+    color: #fafafa
+}
+
+input:focus {
+    border-bottom: 3px solid #BC19B6;
+}
