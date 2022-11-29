@@ -1,0 +1,156 @@
+@media screen and (min-width: 1024px) {
+
+    // Hero section
+    .heading-wrapper {
+        max-width: 956px;
+        margin: 0 auto;
+    }
+
+    .heading-wrapper .row {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .col-2 .hero-img {
+        height: 469px;
+    }
+
+    .col-2 .hero-img .img {
+        height: 100%;
+    }
+
+    .col-2 .hero-text {
+        justify-items: flex-start !important;
+        align-items: flex-start !important;
+        text-align: left !important;
+    }
+
+    .col-2 .hero-text h1 {
+        text-align: left;
+        font-size: 72px;
+        line-height: 76px;
+    }
+
+    .col-2 .hero-text p {
+        padding-right: 4rem;
+    }
+
+    // navbar section
+
+    .navbar .wrapper {
+        max-width: 956px;
+        margin: 0 auto;
+    }
+
+    .booking-section .wrapper {
+        max-width: 956px;
+        margin: 0 auto;
+    }
+
+    .booking-section .wrapper .row {
+        display: flex;
+        flex-direction: row !important;
+        align-items: center;
+        row-gap: 20px;
+    
+    }
+
+
+    .booking-section .wrapper .row .col-2:nth-child(2) {
+        order: 2;
+    }
+
+    .booking-section .wrapper .row .col-2 .text-section  {
+        text-align: left !important;
+    }
+
+    .booking-section .wrapper .row .col-2 .text-section h2 {
+        font-size: 52px !important;
+        line-height: 55px;
+    }
+
+    .booking-section .wrapper .row .col-2 .text-section p {
+        width: 391px;
+        padding-block: 20px;
+        color: rgba(204, 204, 204, 0.963);
+    }
+
+    // Week Recent section
+
+    .week-recent .wrapper {
+        max-width: 956px !important;
+        margin: 0 auto;
+    }
+
+    .week-recent .wrapper .row {
+        grid-template-columns: repeat(3, auto) !important;
+        column-gap: 1rem;
+    }
+
+    // Banner section
+
+    .banner {
+        height: 489px;
+    }
+
+    .banner .wrapper .wrapper-wrap {
+        max-width: 956px;
+        margin: 0 auto;
+    }
+
+    .banner .wrapper .banner-body {
+        width: 542px;
+        height: 297px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .footer .wrapper .row {
+        max-width: 956px;
+        margin: 0 auto;
+    }
+
+    // Form section
+    .form-section .form {
+        width: 850px;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .heading-wrapper {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    .navbar .wrapper {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    .booking-section .wrapper {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    .week-recent .wrapper {
+        max-width: 1100px !important;
+        margin: 0 auto;
+    }
+
+    .week-recent .wrapper h2 {
+        font-size: 52px !important;
+        width: 468px;
+    }
+
+    .banner .wrapper .wrapper-wrap {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    .footer .wrapper .row  {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+}

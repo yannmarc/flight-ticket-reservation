@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SigninComponent implements OnInit {
 
+  userName = "Paull Mc Guire";
   constructor() { }
 
   ngOnInit() {

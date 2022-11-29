@@ -10,14 +10,19 @@
 
 body {
     font-size: 16px;
-    color: #2ca2df;
+    color: #000000;
     font-family: $font-secondary;
+    background-color: rgba(245, 245, 245, 0.445);
 }
 
 ul, ol {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+p {
+    font-family: 'Inter';
 }
 
 a, a:visited, a:active {

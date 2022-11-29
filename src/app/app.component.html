@@ -3,7 +3,9 @@
 <!-- Navigation -->
 <nav class="navbar">
   <div class="wrapper">
-    <div class="logo"><img src="../assets/logo.svg" alt="flight ticket logo"></div>
+    <div class="logo">
+      <a href="/home" routerLink="/home"><img src="../assets/logo.svg" alt="flight ticket logo"></a>
+    </div>
     <div class="mobile-nav-bar">
       <a href="" routerLink="/login">Login</a>
       <a href="/sign-in" rounterLink="/sign-in">Sign up</a>
@@ -11,6 +13,17 @@
   </div>
 </nav>
 
-
-
 <router-outlet></router-outlet>
+
+<footer class="footer">
+  <div class="wrapper">
+      <div class="row">
+          <div class="col-logo">
+              <img src="../../assets/logo-white.svg" alt="">
+          </div>
+          <div class="col-copy">
+              <p>All right reserved, Fomic polytechnique university @2022</p>
+          </div>
+      </div>
+  </div>
+</footer>
