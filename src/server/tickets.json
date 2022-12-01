@@ -1,0 +1,12 @@
+{
+    "tickets": [
+        {
+            "flightID": "LT5804",
+            "destination": "Douala",
+            "depTime": "18:30",
+            "price": 20000,
+            "class": "Premium",
+            "places": 70
+        }
+    ]
+}

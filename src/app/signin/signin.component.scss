@@ -1,0 +1,124 @@
+@import url('../../styles/utils/_index.scss');
+h1 {
+    font-family: 'Darker Grotesque';
+    font-size: 52px;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.form-section {
+    padding-block: 4rem;
+    padding-inline: 2rem;
+}
+
+.form-flex {
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 100px rgba(207, 207, 207, 0.473);}
+
+.form-img {
+    height: 150px;
+}
+
+.form-img .img {
+    width: 100%;
+    height: 100%;
+}
+
+.form-img .img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.form {
+    width: 100%;
+    padding-inline: 1.5rem;
+    padding-block: 2rem;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+input {
+    width: 100%;
+    padding-block: 1rem;
+    padding-inline: 1rem;
+    border: none;
+    outline: none;
+    background-color: #fafafab3;
+    border-radius: 5px;
+}
+
+input:focus {
+    border-bottom: 3px solid #BC19B6;
+}
+
+input::placeholder {
+    color: #dfdede;
+}
+
+input[type=submit] {
+    background-color: #000000;
+    border-radius: 0;
+    padding-block: 1.2rem;
+    width: 200px;
+    text-align: center;
+}
+
+input[value] {
+    text-align: center;
+    text-align: center;
+}
+
+.btn-submit {
+    width: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    color: #dfdede;
+    padding-block: 1.2rem;
+    background-color: #000000 !important    ;
+}
+
+@media screen and (min-width: 760px) {
+    .form-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-inline: 0;
+    }
+    
+    .form-flex {
+        flex-direction: column;
+        padding-inline: 2rem;
+        align-items: center;
+        padding-inline: 0;
+        width: 400px;
+    }
+    
+    .form-img {
+        height: 150px;
+        width: 100%;
+    }
+
+    .form {
+        height: 100%;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .form-flex {
+        max-width: 956px;
+        margin: 0 auto;
+    }
+
+}
